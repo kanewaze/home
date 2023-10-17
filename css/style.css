@@ -1,0 +1,136 @@
+body {
+    background-color: #ede4ff;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+
+}
+
+
+header
+{
+    color:white;
+    background-color: #7e5cb2;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}    
+
+header li img
+{
+    width: 90px;
+    float: left;
+    margin-top: -25px;
+    transition: 1s ease;
+
+}
+
+header li
+{
+display: inline;
+padding-left: 45px;
+}
+
+header li a
+{
+
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: 2s ease;
+
+}
+
+header li a :hover
+{
+color:royalblue;
+}
+
+header ul #contact a
+{
+    color: #000000;
+    background-color: #fff;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    padding: right;
+    transition: .3s ease;
+
+}
+
+header ul #contact a:hover
+{
+    background-color: gold;
+    
+    transition: .3s ease;
+}
+
+header ul a:hover
+{
+    color: gold;
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: .3s ease;
+}
+.active
+{
+    color: gold;
+}
+
+.active
+{
+    color: gold;
+}
+
+
+
+/* body center*/
+
+p {
+    
+    font-family: 'Young Serif', serif;
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 100;
+    transition: 2s ease;
+}
+
+p1
+{
+    position: relative;
+    top: -70px;
+   color:#7e5cb2; 
+}
+
+.btn
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: rgb(162, 0, 255);
+    border: 10px solid var(--clr-accent);
+    border-radius: 60px;
+transition: transform 0.3s ease;
+animation: fade-up 0.5s;
+   
+}
+
+.btn:hover
+{
+    transform: translateY(-10px);
+    background-color: gold;
+    color: black;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
