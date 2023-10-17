@@ -1,30 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-</head>
+body {
+    background-color: #ede4ff;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
 
-<!--     اعداد الطالب محمود عبد القار كاني-->
+}
 
 
+header
+{
+    color:white;
+    background-color: #7e5cb2;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}    
 
-<body>
-    <header>
-        <ul>
-            <li><img src="imges/logo1.png" alt="logo"></li>
-            <li><a href ="a" class="active">Home</a></li>
-            <li><a href ="a">Gallery</a></li>
-            <li id="contact"><a href="#">Contact us</a></li>
-        </ul>
-    </header>
+header li img
+{
+    width: 90px;
+    float: left;
+    margin-top: -25px;
+    transition: 1s ease;
 
-    <!--  body center --> 
-    <p>Hello World</p>
-</body>
-</html>
+}
+
+header li
+{
+display: inline;
+padding-left: 45px;
+}
+
+header li a
+{
+
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: 2s ease;
+
+}
+
+header li a :hover
+{
+color:royalblue;
+}
+
+header ul #contact a
+{
+    color: #000000;
+    background-color: #fff;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    padding: right;
+    transition: .3s ease;
+
+}
+
+header ul #contact a:hover
+{
+    background-color: gold;
+    
+    transition: .3s ease;
+}
+
+header ul a:hover
+{
+    color: gold;
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: .3s ease;
+}
+.active
+{
+    color: gold;
+}
+
+.active
+{
+    color: gold;
+}
+
+
+
+/* body center*/
+
+p {
+    
+    font-family: 'Young Serif', serif;
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 100;
+    transition: 2s ease;
+}
+
+p1
+{
+    position: relative;
+    top: -70px;
+   color:#7e5cb2; 
+}
+
+.btn
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: rgb(162, 0, 255);
+    border: 10px solid var(--clr-accent);
+    border-radius: 60px;
+transition: transform 0.3s ease;
+animation: fade-up 0.5s;
+   
+}
+
+.btn:hover
+{
+    transform: translateY(-10px);
+    background-color: gold;
+    color: black;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
