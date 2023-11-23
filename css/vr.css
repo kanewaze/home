@@ -25,7 +25,7 @@
     margin: 10px;
   }
 
-/* ==== card 1 ============ */
+/* ==== banner ============ */
 
 .section1 {
   display: flex;
@@ -37,12 +37,8 @@
 }
 
 .section1 .parent1{
-  padding-top: 40px;
+  padding-top: 65px;
   margin: 10px;
-}
-
-.section1 .parent1 .item1 {
-font-size: 2.8rem;
 }
 
 .section1 .parent1 .item2 img {
@@ -51,6 +47,93 @@ font-size: 2.8rem;
     width: 100%;
 }
 
+
+/* ====== brake ============================ */
+
+.brake{
+display: flex;
+justify-content: space-around;
+grid-gap: 500px;
+
+
+}
+
+.menu2{width: 50px}
+.t-brake{font-size: 20px;}
+
+/* ==== vrsec ============ */
+
+.vrsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0 auto;
+
+}
+
+.svrsec .parent1{
+  padding-top: 65px;
+  margin: 10px;
+}
+
+.vrsec .parent1 .item2 img {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+
+/* ==== card 1 ===== */
+
+.img-banner{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.section1{
+  background: white;
+
+  
+}
+.parent{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0px 50px 0px 50px;
+}
+
+.parent div{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.section1 .parent .item2 p{
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+
+.item1{
+  background-color: white;
+}
+
+.item1 img{
+  width: 500px;
+  border-radius: 20px;
+}
+.item2{
+  background-color: white;
+  text-align: justify;
+
+}
+.item2 h1{
+  font-size: 50px;
+}
 
 /* ====== card 2 ===========================-*/
 .section2{
@@ -305,21 +388,32 @@ margin-right: 15px;
   .parent{
     flex-flow: row wrap;
   }
-/* === section 1 == */
-.section1 {
-  background-color: #ffffff;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0 auto;
+  /* === section 1 == */
+.item1 img{
+  width: 300px;
+ 
+  border-radius: 20px;
+  padding: 0px 0px 0px 0px;
 }
 
-.section2 .imgcontaner img{
-  margin: 3px;
-  width: 125px;
-  border-radius: 10PX;
+.parent .div{
+  background-color: gold;
+  padding: 0px 0px 0px 0px;
+}
 
+/* ====== brake ============================ */
+
+.brake{
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 3px;
+  
+  }
+
+.t-brake{font-size: 18px;}
+.menu2{
+padding: 0px;
+  width: 30px
 }
 
 
