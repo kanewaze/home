@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /*========       start sections      ================================*/
+
+  .parent{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 50px 0px 50px;
+  }
+  
+  .parent div{
+    padding: 10px;
+    margin: 10px;
+  }
+
+/* ==== banner ============ */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  padding: 5px 0px 0px 0px;
+  margin-top: 0 auto;
+}
+
+.section1 .parent1{
+  padding-top: 65px;
+  margin: 10px;
+}
+
+.section1 .parent1 .item2 img {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+
+/* ====== brake ============================ */
+
+.brake{
+display: flex;
+justify-content: space-around;
+grid-gap: 500px;
+
+
+}
+
+.menu2{width: 50px}
+.t-brake{font-size: 20px;}
+
+/* ==== vrsec ============ */
+
+.vrsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  padding: 0px 0px 0px 0px;
+  margin-top: 0 auto;
+
+}
+
+.svrsec .parent1{
+  padding-top: 65px;
+  margin: 10px;
+}
+
+.vrsec .parent1 .item2 img {
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+
+/* ==== card 1 ===== */
+
+.img-banner{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.section1{
+  background: white;
+
+  
+}
+.parent{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0px 50px 0px 50px;
+}
+
+.parent div{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.section1 .parent .item2 p{
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+
+.item1{
+  background-color: white;
+}
+
+.item1 img{
+  width: 500px;
+  border-radius: 20px;
+}
+.item2{
+  background-color: white;
+  text-align: justify;
+
+}
+.item2 h1{
+  font-size: 50px;
+}
+
+/* ====== card 2 ===========================-*/
+.section2{
+  background-color: rgb(255, 255, 255);
+}
+
+.section2 .imgcontaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  cursor: pointer;
+}
+
+.section2 .imgcontaner img{
+  margin: 5px;
+  width: 490px;
+  border-radius: 20PX;
+
+}
+
+
+
+/* ====== card3 ===========================-*/
+
+.separator{
+  background-color: black;
+  
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+}
+/* ===== */
+
+
+.section3{background-color: black;}
+
+.section3 .item9 video{
+width: 300px;
+border-radius: 20px;
+box-shadow:0px 0px 90px 0px rgb(224, 48, 255,);
+}
+
+/* ==== audiosec ===== */
+
+
+.audiosec{
+  background: white;
+
+  
+}
+
+
+.parent div{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.audiosec .parent .item2 p{
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.glasses img{
+  width: 450px;
+  border-radius: 20px;
+}
+.item2{
+  background-color: white;
+  text-align: justify;
+}
+.item2 h1{
+  font-size: 50px;
+}
+
+.audiosec .item2 audio{
+  width: 600px;
+  margin-top: 20px;
+}
+
+
+/* ====== video sec =======================-*/
+
+.videosec {background: black;}
+
+.item4 img{
+  width: 500px;
+  border-radius: 20px;
+}
+.item4 video{
+  width: 300px;
+  border-radius: 20px;
+  
+}
+
+.item5 {
+  color: white;
+  background-color: black;
+  text-align: justify;
+
+}
+.item5 h1{
+  font-size: 50px;
+}
+
+
+
+
+/* ==== audiosec ================== */
+.audiosec {background: white;}
+
+.parent div{
+  padding: 10px;
+  margin: 10px;
+}
+
+.audiosec .parent .item2 p{
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.glasses img{
+  width: 450px;
+  border-radius: 20px;
+}
+.item2{
+  background-color: white;
+  text-align: justify;
+}
+.item2 h1{
+  font-size: 50px;
+}
+
+.audiosec .item2 audio{
+  width: 600px;
+  margin-top: 20px;
+}
+
+
+
+
+
+/* ========= footer ================================================== */
+
+
+/* ======= pagenumber ================ */
+.pagenumber{
+background-color: rgb(29, 29, 29);
+padding: 20px;
+display: flex;
+justify-content: center;
+grid-gap: 20px;
+height: 100px;
+}
+
+.num{
+  text-decoration: none;
+background-color: #0088a9;
+color: white;
+padding: 10px 20px 10px 20px;
+border-radius: 5px;
+font-size: 30px;
+text-align: center;
+}
+
+.num:hover{
+background-color: white;
+color: black;
+border: 3px solid #0088a9;
+transition: 0.5s;
+
+}
+
+
+
+/* ======= message me ======================================== */
+/* ===== icons color =========== */
+
+.bi-telegram{color: rgb(0, 94, 255);}
+.bi-person{color: rgb(0, 94, 255);}
+.bi-telephone{color: rgb(0, 94, 255);}
+.bi-envelope{color: rgb(0, 94, 255);}
+
+.bi-chat-right-dots{color: white;}
+
+/* ====== hero======= */
+
+.hero{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+}
+
+form{
+    background: #ffffff;
+    width: 700px;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.message-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-icon i{
+    font-size: 40px;
+}
+.message-icon span{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+    font-family: 'Montserrat';
+}
+
+form input, textarea{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    outline:none;
+}
+
+#input-field{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#input-field i{
+font-size: 20px;
+margin-right: 15px;
+}
+
+.send-btn{
+    margin-top: 6px;
+    width: 100px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ======= message me end ======================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========== mobile version =====================================================*/
+@media only screen and (max-width: 812px) {
+
+  .parent{
+    flex-flow: row wrap;
+  }
+  /* === section 1 == */
+.item1 img{
+  width: 300px;
+ 
+  border-radius: 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+.parent .div{
+  background-color: gold;
+  padding: 0px 0px 0px 0px;
+}
+
+/* ====== brake ============================ */
+
+.brake{
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 3px;
+  
+  }
+
+.t-brake{font-size: 18px;}
+.menu2{
+padding: 0px;
+  width: 30px
+}
+
+
+/* === audio sec == */
+.audiosec .item2 audio{
+  width: 360px;
+}
+
+.glasses img{
+  width: 280px;
+  border-radius: 20px;
+}
+
+.item2 h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+
+/* ====== banner===========================-*/
+
+.section1{
+  height: 200px;
+  margin-top: 50px;
+}
+
+
+
+.section1 h1{
+  font-size: 22px;
+}
+.section1 .parent1{
+  padding-top: 0px;
+  margin: 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+/* ====== feed ===========================-*/
+.section2{
+  background-color: rgb(255, 255, 255);
+}
+
+.section2 .imgcontaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  cursor: pointer;
+
+}
+
+.section2 .imgcontaner img{
+  margin: 5px;
+  width: 120px;
+  border-radius: 20PX;
+
+}
+
+/* ==== vidsec === */
+
+.videosec h1{
+  font-size: 25px;
+
+}
+
+.videosec .item4{
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.videosec .item5{
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+
+/* ================ pagenumber ============== */
+.pagenumber{
+
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+
+  }
+  
+  .num{
+    height:45px;
+    text-decoration: none;
+    background-color: #0088a9;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+}
+
+
+
+
+/*==================================================================================================================*/
+/* head*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 5%;
+  background-color: rgb(0,0,0,0.7);
+  position: fixed;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  top: -5px;
+}
+
+img{
+  width: 250px;
+  padding: 5px 0px;
+  float: left;
+  transition: .3s ease;
+}
+
+.logo {
+  margin-right: auto;
+  position: relative;
+  top: 0px;
+}
+
+.nav__links {list-style: none;   display: flex;}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  
+}
+
+.nav__links li {padding: 0px 20px;}
+.nav__links li a {transition: all 0.3s ease 0s;}
+.nav__links li a:hover {color: rgb(0, 128, 255);}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgb(0, 128, 255);   color: white;}
+
+
+
+
+
+/* ================ pagenumber ============== */
+.pagenumber{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+  }
+  
+  .num{
+    height:45px;
+    text-decoration: none;
+    background-color: #0088a9;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+/* ========== Mobile Nav =====================*/
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+  z-index: 2000;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.logo img{
+  width: 190px;
+  padding: 0px 0px 0px 0px;
+
+}
+.cta {
+margin:5px 0px 5px 0px;
+
+}
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+/* ================ pagenumber ============== */
+.pagenumber{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 15px;
+  }
+  
+  .num{
+    height:45px;
+    text-decoration: none;
+    background-color: #0088a9;
+    color: white;
+    padding: 10px 15px 9px 15px;
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+/* ===== message me ======= */
+.hero{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 29, 29);
+}
+
+form{
+  background: #ffffff;
+  width: 360px;
+  height: 480px;
+  padding: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.send-btn{width: 300px;}
+
+
+
+
+
+}
